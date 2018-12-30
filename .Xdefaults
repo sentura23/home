@@ -1,0 +1,73 @@
+XTerm*background: Black
+XTerm*foreground: Wheat
+XTerm*cursorColor: Orchid
+XTerm*reverseVideo: false
+XTerm*scrollBar: true
+XTerm*reverseWrap: true
+XTerm*font: fixed
+XTerm*fullCursor: true
+XTerm*scrollTtyOutput: off
+XTerm*scrollKey: on
+XTerm*VT100.Translations: #override\n\
+	<Key>BackSpace: string(0x7F)\n\
+	<Key>Delete: string("\033[3~")\n\
+	<Key>Home: string("\033[1~")\n\
+	<Key>End: string("\033[4~")
+  <KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+XTerm*titleBar: false
+XTerm*geometry: 128x80
+
+XTerm*alwaysHighlight: no 
+XTerm*marginBell: no 
+XTerm*iconName: Xterm 
+Mwm*xterm*iconImage: /home/a/a1111aa/xterm.icon
+XTerm*loginShell: true
+XTerm*scrollColor: black
+XTerm*allowSendEvents: True
+XTerm*sessionMgt: false
+XTerm*eightBitInput: false
+XTerm*metaSendsEscape: true
+XTerm*internalBorder: 1
+XTerm*highlightSelection: true
+XTerm*VT100*colorBDMode: on
+XTerm*VT100*colorBD: blue
+XTerm.VT100.eightBitOutput: true
+XTerm.VT100.titeInhibit: false
+XTerm*VT100*titeInhibit: true
+XTerm*color0: black
+XTerm*color1: red3
+XTerm*color2: green3
+XTerm*color3: yellow3
+XTerm*color4: DodgerBlue1
+XTerm*color5: magenta3
+XTerm*color6: cyan3
+XTerm*color7: gray90
+XTerm*color8: gray50
+XTerm*color9: red
+XTerm*color10: green
+XTerm*color11: yellow
+XTerm*color12: blue
+XTerm*color13: magenta
+XTerm*color14: cyan
+XTerm*color15: white
+XTerm*colorUL: yellow
+XTerm*colorBD: white
+XTerm*mainMenu*backgroundPixmap: gradient:vertical?dimension=400&start=gray10&end=gray40
+XTerm*mainMenu*foreground: white
+XTerm*vtMenu*backgroundPixmap: gradient:vertical?dimension=550&start=gray10&end=gray40
+XTerm*vtMenu*foreground: white
+XTerm*fontMenu*backgroundPixmap: gradient:vertical?dimension=300&start=gray10&end=gray40
+XTerm*fontMenu*foreground: white
+XTerm*tekMenu*backgroundPixmap: gradient:vertical?dimension=300&start=gray10&end=gray40
+XTerm*tekMenu*foreground: white
+XTerm*rightScrollBar: false 
+
+
+*VT100.Translations: #override \
+  <Key>BackSpace: string(0x7F)\n\
+  <Key>Delete:    string("\033[3~")\n\
+  <Key>Home:      string("\033[1~")\n\
+  <Key>End:       string("\033[4~")
+*ttyModes: erase  
+yeahconsole*term:xtermm -bgg blackk -fgg beige
